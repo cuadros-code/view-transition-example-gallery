@@ -46,9 +46,16 @@
     display: flex;
     border-radius: 10px;
     max-width: 800px;
+    width: 800px;
     height: 700px;
     padding: 40px;
     background-color: #e1e1e1;
+  }
+
+  @media (width <= 900px) {
+    .gallery{
+      width: auto;
+    }
   }
   
   .gallery-list {
